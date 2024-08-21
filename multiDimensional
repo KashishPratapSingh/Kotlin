@@ -1,0 +1,37 @@
+fun main(args:Array<String>) {
+    val numbers = arrayOf(1,2,3,4,5) 
+    val words: Array<String> = arrayOf("Kotlin", "Java", "Python", "C++", "Ruby")
+    val squares = Array(5) {i -> i * i} //lambda
+    println(squares)    
+    var sq1 = squares[3]
+    val num1 = numbers[0]
+    var num2 = numbers[1]
+    var w1 =  words[2]
+    println(sq1)
+    println("1st number: $num1")
+    println("2nd number: $num2")
+    numbers[0] = 10
+    println("Modified 1st element: $num1")
+    println(w1)
+    
+    println("1st for loop")
+    for (num in numbers){
+        println(num)
+    }
+    //Data type conversion(type conversion/casting)
+     
+    val x: Int = 100
+    val y: Long = x.toLong()
+    println(y)
+    
+    //Safe casting and unsafe casting problem
+    println("\nSafe and unsafe casting program\n")
+    val a = "hi"
+    val b: String = a as String
+    println("Unsafe cas result: $b")
+//     val c: Int = a as Int
+//     println("Will not print as it is not possible")
+// 	   to tackle this we will get safe casting
+    val c: Int? = a as? Int
+    println("Safe casting: $c") // returns null
+}
