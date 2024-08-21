@@ -1,0 +1,32 @@
+fun main() {
+    val letter:Char
+    letter='A'
+    print("$letter")
+   	print('\n')
+    print('\$')
+    print('\n')
+    val sh:String="""Kashish Kashish Kashish Kashish """                   
+    print("$sh")
+    val s:String="""
+    Kashish
+    	Kashish
+        	Kashish
+            	Kashish
+                	Kashish
+     """
+    print("$s")
+    val x:String="""
+    	 Shashank
+    Shashank	Shashank
+    	 Shashank
+    
+    """
+    print(x)
+    val A:Boolean=true
+    print(A)
+    val numbers =arrayOf(1,2,3,4,5)
+    val words:Array<String>=arrayOf("Kotlin","Java","Python")
+    val squares=Array(5){i -> i*i}
+    print(squares)
+
+}
