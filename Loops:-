@@ -1,0 +1,47 @@
+fun main(){
+        for(i in 1..5){
+                    println("Number: $i")
+                }
+        println("----------------------------------------------------------------------")
+        for(i in 1 until 5){
+            println("Number: $i")
+        }
+        for(item in 5 downTo 1){
+            println(item)
+        }
+        for(item in 5 downTo 1 step 2){
+            println(item)
+        }
+        val fruits=listOf("Apple", "Banana","Cherry")
+          for(fruit in fruits){
+              println("Fruit:$fruit")
+          }
+        val fruits=listOf("Apple","Banana","Cherry")
+        for(index in fruits.indices){
+            println("Fruits at index $index:${fruits[index]}")
+        }
+        var i=5
+      	while(i>0){
+              println(i)
+              i--
+          }
+        var i=5
+      	do{
+              println("Value:$i")
+              i--
+          }
+          while(i>5)
+        var i=5
+      	do{
+              println("value of i is $i")
+              i--
+              
+          }
+          while(i>0)
+        var i=1
+      	do{
+              println("value of i is $i")
+              i++
+          }
+          while(i<=5)
+}
