@@ -1,0 +1,9 @@
+fun main() {
+    println("enter the number to find factorial")
+    var y:Int=readln().toInt()
+    var x=factorial(y)
+    println(x)
+}
+fun factorial(n:Int):Int{
+    return if(n<=1) 1 else n*factorial(n-1)
+}
