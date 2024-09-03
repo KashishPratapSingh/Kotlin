@@ -26,21 +26,21 @@ fun main() {
     c.intro()
 }
 // Primary constructor use:-
-class Person(var name:String, var age:Int){
-    constructor(x:String):this(){
-        this.name=x
-        this.age=0
-    }
-    constructor():this("Rahul",50)
-    fun intro(){
-        println("My name is $name and age is $age")
-    }
-}
-fun main() {
-    var a=Person("Shashank",22) 
-    a.intro()
-    var b=Person()
-    b.intro()
-    var c=Person("Kashish Pratap Singh")
-    c.intro()
-}
+//class Person(var name:String, var age:Int){
+//    constructor(x:String):this(){
+//        this.name=x
+//        this.age=0
+//    }
+//    constructor():this("Rahul",50)
+//    fun intro(){
+//        println("My name is $name and age is $age")
+//    }
+//}
+//fun main() {
+//    var a=Person("Shashank",22)
+//    a.intro()
+//    var b=Person()
+//    b.intro()
+//    var c=Person("Kashish Pratap Singh")
+//    c.intro()
+//}

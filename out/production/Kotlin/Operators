@@ -1,0 +1,49 @@
+fun main() {
+//     val kotlin = "🙂"
+//     println(kotlin)
+//     val s=arrayOf(arrayOf(1,2,3,4,5,6))
+//     print(Array.deeptoString(s))
+//     operators
+//     artihmetic=+,-,*,%,/
+//     logical:= &&, ||,!
+//     shl(bits), shr(bitd)
+    var a=10
+    var b=5
+    var add=a+b 
+    println("Addition: $a + $b = $add")
+    var mul=a*b;
+    println("Multiplication: $a * $b = $mul")
+    var sub=a-b
+    println("Subtract: $a - $b = $sub")
+    var div=a/b
+    println("Division: $a / $b = $div")
+    var mod=a%b
+    println("Modulous: $a % $b= $mod")
+//     Relational Operator:--
+	var c=15
+    var d=20
+    println("Greater than: $a > $b=${a.compareTo(b)}")
+    println("Less than: $a < $b = ${a<b}")
+    println("Greater than or Equal to: $c >= $d=${c>=d}")
+    println("Less than or equal to: $c <= $d= ${c<=d}")
+    println("Equal to: $c == $d=${c==d}")
+//     Assignment Operators:--
+	a+=b
+    println("$a")
+    a-=b
+    println("$a")
+    a/=b
+    println("$a")
+    a*=b
+    println("$a")
+    a%=b
+    println("$a")
+//     Unary Operator:
+    println("a: $a=${+a}")
+    println("-a: $a=${-a}")
+    println("++a: $a=${++a}")
+    println("--a: $a=${--a}")
+//     println("!a: $a=${!a}")
+// 		Logical Operator:--
+	
+}
