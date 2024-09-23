@@ -1,3 +1,5 @@
+
+
 fun main() {
     var iAmount:Int=1000
     while(true){
